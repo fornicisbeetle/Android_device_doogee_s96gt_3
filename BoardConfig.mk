@@ -187,7 +187,7 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 
 # TWRP Configuration
 TW_DEFAULT_LANGUAGE := ru
-TW_EXTRA_LANGUAGES := false
+TW_EXTRA_LANGUAGES := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
 TW_CUSTOM_CPU_TEMP_PATH := /sys/devices/virtual/thermal/thermal_zone1/temp
 TARGET_RECOVERY_LCD_BACKLIGHT_PATH := \"/sys/class/leds/lcd-backlight/brightness\"
